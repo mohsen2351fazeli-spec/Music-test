@@ -222,7 +222,8 @@ html {
     gap: 0.5rem;
   }
   .music-icon {
-    width: 2.3rem;
+    width: 1rem;
+    height:1rem;
   }
   .music-range {
     height: 0.6rem;
@@ -243,4 +244,5 @@ html {
     font-size: 2rem;
   }
 }
+
 
