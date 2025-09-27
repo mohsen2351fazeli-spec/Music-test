@@ -12,7 +12,7 @@ html {
 @font-face {
   font-family: "shabnam";
   src: url("./Shabnam/shabnam/Shabnam.woff2");
-  /* src: url("./Shabnam.woff2"); */
+  src: url("./Shabnam.woff2");
 }
 .player {
   color: aliceblue;
@@ -243,3 +243,4 @@ html {
     font-size: 2rem;
   }
 }
+
