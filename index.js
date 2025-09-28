@@ -41,7 +41,7 @@ const openiconhanler = () => {
 
 
   const getlink = () => {
-if(!localStorage.setItem("links", JSON.stringify(links));)
+if(!localStorage.setItem("links", JSON.stringify(links))getlink)
   {
     const links = [
       [
@@ -199,11 +199,12 @@ doobl.addEventListener("click",()=>{
     audio.playbackRate=1;
   }
 })
-
+localStorage.clear();
 setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
