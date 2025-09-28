@@ -56,6 +56,7 @@ const getlink = () => {
         "babel",
         "experince",
         "gladiator",
+        "nature of daulight",
       ],
       [
         "./canu.mp3",
@@ -71,6 +72,7 @@ const getlink = () => {
         "./babel-music.mp3",
         "./12_-_experience.mp3",
         "./hans-zimmer-the-battle-320.mp3",
+        "./max_richter_-_on_the_nature_of_daylight_-_musicgeek.ir_.mp3",
       ],
     ];
 
@@ -201,3 +203,4 @@ setTimeout(() => {
   first()
 
 }, 100);
+
