@@ -198,12 +198,12 @@ doobl.addEventListener("click",()=>{
     doobl.innerHTML="1x";
     audio.playbackRate=1;
   }
-})
-localStorage.clear();
+}
 setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
