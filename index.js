@@ -52,6 +52,10 @@ const getlink = () => {
         "three kingdoms",
         "The Interstellar Experience",
         "conquest of paradise",
+        "for the love",
+        "babel",
+        "experince",
+        "gladiator",
       ],
       [
         "./canu.mp3",
@@ -63,6 +67,10 @@ const getlink = () => {
         "./THREEKINGDOMS.mp3",
         "./TonyAnnTonyAnn-TheInterstellarExperience.mp3",
         "./Vangelis-ConquestOfParadise.mp3",
+        "./11_for_the_love_of_a_princess-std.mp3",
+        "./babel-music.mp3",
+        "./12_-_experience.mp3",
+        "./hans-zimmer-the-battle-320.mp3",
       ],
     ];
 
@@ -191,4 +199,5 @@ doobl.addEventListener("click",()=>{
 
 setTimeout(() => {
   first()
+
 }, 100);
