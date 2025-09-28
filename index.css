@@ -243,6 +243,14 @@ html {
   .title {
     font-size: 2rem;
   }
+  .search-icon {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-image: url("./search.png");
+  object-fit: cover;
+  background-size: cover;
 }
+}
+
 
 
