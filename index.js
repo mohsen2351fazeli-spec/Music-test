@@ -39,8 +39,9 @@ const openiconhanler = () => {
   soundIcon.className = "music-icon open";
 };
 
-const getlink = () => {
- if(!localStorage.setItem("links", JSON.stringify(links));)
+
+  const getlink = () => {
+if(!localStorage.setItem("links", JSON.stringify(links));)
   {
     const links = [
       [
@@ -199,11 +200,12 @@ doobl.addEventListener("click",()=>{
   }
 })
 
-
+localStorage.clear();
 setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
