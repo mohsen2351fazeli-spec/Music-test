@@ -200,11 +200,11 @@ doobl.addEventListener("click",()=>{
   }
 })
 
-localStorage.clear();
 setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
