@@ -40,7 +40,7 @@ const openiconhanler = () => {
 };
 
 const getlink = () => {
-  if (!JSON.parse(localStorage.getItem("links"))) {
+  
     const links = [
       [
         "can u hear the music",
@@ -77,7 +77,7 @@ const getlink = () => {
     ];
 
     localStorage.setItem("links", JSON.stringify(links));
-  }
+  
   const links = JSON.parse(localStorage.getItem("links"));
   showlist(links);
 };
@@ -203,4 +203,5 @@ setTimeout(() => {
   first()
 
 }, 100);
+
 
