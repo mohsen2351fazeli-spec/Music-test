@@ -40,8 +40,9 @@ const openiconhanler = () => {
 };
 
 const getlink = () => {
-  
-    const linkss = [
+ if(!localStorage.setItem("links", JSON.stringify(links));)
+  {
+    const links = [
       [
         "can u hear the music",
         "a reckoning in blood",
@@ -75,8 +76,8 @@ const getlink = () => {
         "./max_richter_-_on_the_nature_of_daylight_-_musicgeek.ir_.mp3",
       ],
     ];
-
-    localStorage.setItem("links", JSON.stringify(linkss));
+}
+    localStorage.setItem("links", JSON.stringify(links));
   
   const links = JSON.parse(localStorage.getItem("links"));
   showlist(links);
@@ -203,6 +204,7 @@ setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
