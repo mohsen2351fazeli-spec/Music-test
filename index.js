@@ -41,7 +41,7 @@ const openiconhanler = () => {
 
 const getlink = () => {
   
-    const links = [
+    const linkss = [
       [
         "can u hear the music",
         "a reckoning in blood",
@@ -76,7 +76,7 @@ const getlink = () => {
       ],
     ];
 
-    localStorage.setItem("links", JSON.stringify(links));
+    localStorage.setItem("links", JSON.stringify(linkss));
   
   const links = JSON.parse(localStorage.getItem("links"));
   showlist(links);
@@ -203,5 +203,6 @@ setTimeout(() => {
   first()
 
 }, 100);
+
 
 
