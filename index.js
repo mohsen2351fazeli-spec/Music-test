@@ -197,11 +197,12 @@ doobl.addEventListener("click",()=>{
     doobl.innerHTML="1x";
     audio.playbackRate=1;
   }
-}
+});
 setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
