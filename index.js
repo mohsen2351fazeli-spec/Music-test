@@ -28,6 +28,9 @@ const linkz = [
         "experince",
         "gladiator",
         "nature of daulight",
+            "ride for rohirrin",
+            "city of prague",
+            "concerning hobbits",
       ],
       [
         "./canu.mp3",
@@ -44,6 +47,9 @@ const linkz = [
         "./12_-_experience.mp3",
         "./hans-zimmer-the-battle-320.mp3",
         "./max_richter_-_on_the_nature_of_daylight_-_musicgeek.ir_.mp3",
+            "./07_-_the_ride_of_the_rohirrin.mp3",
+            "./the_city_of_prague_philharmonic_orchestra_-_the_bridge_of_kh.mp3",
+            "./howard_shore_-_concerning_hobbits_-_musicgeek.ir_.mp3",
       ],
     ];
 
@@ -98,6 +104,9 @@ const openiconhanler = () => {
         "experince",
         "gladiator",
         "nature of daulight",
+             "ride for rohirrin",
+            "city of prague",
+            "concerning hobbits",
       ],
       [
         "./canu.mp3",
@@ -114,6 +123,9 @@ const openiconhanler = () => {
         "./12_-_experience.mp3",
         "./hans-zimmer-the-battle-320.mp3",
         "./max_richter_-_on_the_nature_of_daylight_-_musicgeek.ir_.mp3",
+             "./07_-_the_ride_of_the_rohirrin.mp3",
+            "./the_city_of_prague_philharmonic_orchestra_-_the_bridge_of_kh.mp3",
+            "./howard_shore_-_concerning_hobbits_-_musicgeek.ir_.mp3",
       ],
     ];
 
@@ -242,6 +254,7 @@ setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
