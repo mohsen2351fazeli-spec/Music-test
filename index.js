@@ -9,8 +9,48 @@ const doobl = document.querySelector(".doobl");
 const audio = document.querySelector("audio");
 const overlay=document.querySelector(".overlay");
 const modal=document.querySelector(".modal");
-const yes=document.querySelector(".yes")
-const no=document.querySelector(".no")
+const yes=document.querySelector(".yes");
+const no=document.querySelector(".no");
+
+const linkz = [
+      [
+        "can u hear the music",
+        "a reckoning in blood",
+        "day one dark",
+        "istade dar ghobar",
+        "no time for caution",
+        "three kingdoms sad",
+        "three kingdoms",
+        "The Interstellar Experience",
+        "conquest of paradise",
+        "for the love",
+        "babel",
+        "experince",
+        "gladiator",
+        "nature of daulight",
+      ],
+      [
+        "./canu.mp3",
+        "./46AReckoninginBlood.mp3",
+        "./dayonedark.mp3",
+        "./HabibKhazaeifar-IstadehDarGhobar.mp3",
+        "./notimeforcaution.mp3",
+        "./THREEKINGDOMSSAD.mp3",
+        "./THREEKINGDOMS.mp3",
+        "./TonyAnnTonyAnn-TheInterstellarExperience.mp3",
+        "./Vangelis-ConquestOfParadise.mp3",
+        "./11_for_the_love_of_a_princess-std.mp3",
+        "./babel-music.mp3",
+        "./12_-_experience.mp3",
+        "./hans-zimmer-the-battle-320.mp3",
+        "./max_richter_-_on_the_nature_of_daylight_-_musicgeek.ir_.mp3",
+      ],
+    ];
+
+    localStorage.setItem("links", JSON.stringify(linkz));
+
+
+
 
 let intervalID;
 
@@ -202,6 +242,7 @@ setTimeout(() => {
   first()
 
 }, 100);
+
 
 
 
